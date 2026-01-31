@@ -10,7 +10,9 @@ from pytgcalls.exceptions import NoActiveGroupCall
 from ISTKHAR_MUSIC.utils.database import get_assistant
 import config
 from ISTKHAR_MUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ISTKHAR_MUSIC.core.call import noor
+await noor.start()
+await noor.stream_call(...)
+await noor.decorators()
 from ISTKHAR_MUSIC.misc import SUDOERS
 from ISTKHAR_MUSIC.utils import seconds_to_min, time_to_seconds
 from ISTKHAR_MUSIC.utils.channelplay import get_channeplayCB
