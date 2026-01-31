@@ -54,3 +54,5 @@ def capture_err(func):
             raise err
 
     return capture
+def capture_internal_err(error):
+    print(f"[INTERNAL ERROR] {error}")
