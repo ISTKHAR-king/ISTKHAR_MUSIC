@@ -1,3 +1,7 @@
+def capture_internal_err(e):
+    return str(e)
+
+
 import sys
 import traceback
 from functools import wraps
