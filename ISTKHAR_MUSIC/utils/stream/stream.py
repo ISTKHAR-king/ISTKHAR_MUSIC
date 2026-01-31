@@ -51,7 +51,9 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from ISTKHAR_MUSIC import Carbon, YouTube, app
-from ISTKHAR_MUSIC.core.call import noor
+await noor.start()
+await noor.stream_call(...)
+await noor.decorators()
 from ISTKHAR_MUSIC.misc import db
 from ISTKHAR_MUSIC.utils.database import add_active_video_chat, is_active_chat
 from ISTKHAR_MUSIC.utils.exceptions import AssistantErr
