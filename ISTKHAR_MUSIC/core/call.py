@@ -601,4 +601,4 @@ class Call(PyTgCalls):
                         await self.stop_stream(update.chat_id)
 
 
-ISTKHAR = Call()
+noor = Call()
